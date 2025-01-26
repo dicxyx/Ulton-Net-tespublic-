@@ -5,7 +5,7 @@ proxy-groups:
   proxies:
   - 1. 🔄AH3
   - 2. 🔄AH3
-  - 3. GE 
+  - 3. 🔄USGL
   - 4. TU
   - 5. UK
   - 6. TH
@@ -81,18 +81,18 @@ proxies:
       Host: sg3.6n6.net
   udp: true
 
-- name: 3. GE
+- name: 3. 🔄USGL
   server: 104.26.7.171
   port: 443
   type: trojan
-  password: 74c1d470-5639-11ee-9a6b-1239d0255272
+  password: 76fac47f-5bfb-45e4-99b6-72a073904e71
   skip-cert-verify: true
-  sni: sg2-trojan.bonds.id
+  sni: tro-us02.gproxy.gratis
   network: ws
   ws-opts:
-    path: /howdy
+    path: /trojan-ws
     headers:
-      Host: sg1-trojan.bonds.id
+      Host: tro-us02.gproxy.gratis
   udp: true
 
 - name: 4. TU
