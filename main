@@ -68,7 +68,7 @@ proxies:
   udp: true
 
 - name: 2. 🔄AH3
-  server: 104.18.107.64
+  server: 104.26.7.171
   port: 443
   type: trojan
   password: 6fd36030-dbef-11ef-9ec5-1239d0255272
