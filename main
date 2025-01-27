@@ -9,7 +9,7 @@ proxy-groups:
   - 4. 🔄FRHW
   - 5. UK
   - 6. 🔄USHW
-  - 7. CA
+  - 7. 🔄IDJG
   - 8. MUX
   - 9. MEL
   - 10. H2
@@ -137,18 +137,18 @@ proxies:
       Host: usa.test3.net&
   udp: true
 
-- name: 7. CA
+- name: 7. 🔄ID2JG
   server: 104.26.7.171
   port: 443
   type: trojan
-  password: d5157150-5636-11ee-913c-1239d0255272
+  password: jagoanssh-elwowss
   skip-cert-verify: true
-  sni: ro1.test3.net
+  sni: id2go.ipservers.xyz
   network: ws
   ws-opts:
-    path: /howdy
+    path: /trojan
     headers:
-      Host: ro1.test3.net
+      Host: id2go.ipservers.xyz
   udp: true
 
 - name: 8. MUX
