@@ -6,7 +6,7 @@ proxy-groups:
   - 1. 🔄AH3
   - 2. 🔄AH3
   - 3. 🔄USGL
-  - 4. TU
+  - 4. 🔄FRHW
   - 5. UK
   - 6. 🔄USHW
   - 7. CA
@@ -95,11 +95,11 @@ proxies:
       Host: tro-us02.gproxy.gratis
   udp: true
 
-- name: 4. TU
+- name: 4. 🔄FRHW
   server: 104.26.7.171
   port: 443
   type: trojan
-  password: b530d650-60d2-11ee-b208-1239d0255272
+  password: 3db5a980-dc89-11ef-95e3-1239d0255272
   skip-cert-verify: true
   sni: fr1.test3.net
   network: ws
