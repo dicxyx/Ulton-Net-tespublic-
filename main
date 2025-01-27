@@ -9,7 +9,7 @@ proxy-groups:
   - 4. 🔄FRHW
   - 5. UK
   - 6. 🔄USHW
-  - 7. 🔄ID2JG
+  - 7. 🔄IDJG
   - 8. MUX
   - 9. MEL
   - 10. H2
@@ -137,7 +137,7 @@ proxies:
       Host: usa.test3.net&
   udp: true
 
-- name: 7. 🔄ID2JG
+- name: 7. 🔄IDJG
   server: 104.26.7.171
   port: 443
   type: trojan
