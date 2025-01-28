@@ -10,8 +10,8 @@ proxy-groups:
   - 5. 🔄Network FRHW2
   - 6. 🔄USHW
   - 7. 🔄IDJGO
-  - 8. MUX
-  - 9. MEL
+  - 8. 🔄 Network UK.HW1
+  - 9. 🔄 Network UK.HW2
   - 10. H2
   - 11. H3
   - 12. IDHE
@@ -151,21 +151,21 @@ proxies:
       Host: id2go.ipservers.xyz
   udp: true
 
-- name: 8. MUX
+- name: 8. 🔄 Network UK.HW1
   server: 104.26.7.171
   port: 443
   type: trojan
-  password: 3c72b3c0-60d3-11ee-a83a-1239d0255272
+  password: 6fa99340-dd88-11ef-8f25-1239d0255272
   skip-cert-verify: true
-  sni: tr.test3.net
+  sni: uk1.test3.net
   network: ws
   ws-opts:
     path: /howdy
     headers:
-      Host: tr.test3.net
+      Host: uk1.test3.net
   udp: true
 
-- name: 9. MEL
+- name: 9. 🔄 Network UK.HW2
   server: 104.26.7.171
   port: 443
   type: trojan
