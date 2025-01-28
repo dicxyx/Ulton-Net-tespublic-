@@ -7,7 +7,7 @@ proxy-groups:
   - 2. 🔄AH3
   - 3. 🔄USGL
   - 4. 🔄FRHW
-  - 5. UK
+  - 5. 🔄Network FRHW2
   - 6. 🔄USHW
   - 7. 🔄IDJGO
   - 8. MUX
@@ -109,18 +109,18 @@ proxies:
       Host: fr1.test3.net
   udp: true
 
-- name: 5. UK
+- name: 5. 🔄Network FRHW2
   server: 104.26.7.171
   port: 443
   type: trojan
-  password: q
+  password: 4cb05e00-dd87-11ef-b1a9-1239d0255272
   skip-cert-verify: true
-  sni: sg3-trojan.bonds.id
+  sni: fr1.test3.net
   network: ws
   ws-opts:
     path: /howdy
     headers:
-      Host: sg3-trojan.bonds.id
+      Host: fr1.test3.net
   udp: true
 
 - name: 6. 🔄USHW
