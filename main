@@ -169,14 +169,14 @@ proxies:
   server: 104.26.7.171
   port: 443
   type: trojan
-  password: 715da090-60d3-11ee-b5bf-1239d0255272
+  password: 4f1544a0-dddc-11ef-a588-1239d0255272
   skip-cert-verify: true
-  sni: th1-trojan.bonds.id
+  sni: uk1.test3.net
   network: ws
   ws-opts:
     path: /howdy
     headers:
-      Host: th1-trojan.bonds.id
+      Host: uk1.test3.net
   udp: true
 
 - name: 10. H2
